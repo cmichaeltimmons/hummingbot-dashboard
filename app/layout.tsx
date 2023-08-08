@@ -25,6 +25,10 @@ export const metadata = {
   title: {
     default: 'Hummingbot Dashboard',
   },
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
   description: 'A dashboard for to manage your Hummingbot instances',
 }
 
